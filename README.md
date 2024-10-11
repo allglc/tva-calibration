@@ -22,11 +22,10 @@ We also provide the full code to reproduce all our experiments in the `full_code
 
 `full_code/LinC-main` contains code of calibration for large language models using in-context learning (from [https://github.com/mominabbass/LinC](https://github.com/mominabbass/LinC)). We created the files `full_code/LinC-main/benchmark_tva.py` to compute and save metrics for applying HB_TvA on top of LinC (Table 11 in the paper) and `full_code/LinC-main/analyse_results.ipynb` to format the results.
 
-
 `full_code/Mix-n-Match-Calibration` contains the IRM baseline (from [https://github.com/zhang64-llnl/Mix-n-Match-Calibration](https://github.com/zhang64-llnl/Mix-n-Match-Calibration)).
 
 `full_code/PLMCalibration-main/` contains code for pre-trained language models (from [https://github.com/lifan-yuan/PLMCalibration](https://github.com/lifan-yuan/PLMCalibration)). We modified `prompt_ood.py` to export model outputs and data labels, which can then be used in `full_code/benchmark_calibration.py`.
 
-
+`full_code/ProximityBias-Calibration-main/` contains code for ProCal calibration (from [https://github.com/MiaoXiong2320/ProximityBias-Calibration](https://github.com/MiaoXiong2320/ProximityBias-Calibration). We modified `compute_calibration_metrics.py` to include TvA for comparison with their method using their setting and metrics.)
 
 
